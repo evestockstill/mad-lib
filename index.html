@@ -6,26 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
  </head>
  <title>Mad-lib</title>
+ <img src= "http://thirstyinsuburbia.com/wp-content/uploads/2013/03/madlibswaterguy.jpg">;
  <link rel="stylesheet" href="main.css">
  <body>
- <h1>My bootcamp prep madlib</h1>
-    <p>
-        <class=hidden: I am not a very funny writer so hopfully a</class>Noun:<span><id=noun1><input type="text" name="noun"></span>
-        <class=hidden: will get</class>Person:<span><id=person><input type="text" name="person"></span> 
-        <class=hidden: to</class>Verb:<span><id=verb1><input type="text" name="verb"></span>
-        <class=hidden: out loud.</class>
-        <class=hidden: Bootcamp prep at</class>Noun:<span><id=noun3><input type="text" name="noun"></span>
-        <class=hidden: has been</class>Adjective:<span><id=ajective><input type="text" name="ajective"></span>
-        <class=hidden: .It has only been</class><br>Number:<span><id=number1><input type="text" name="number"></span>
-        <class=hidden: ,although it feels like</class>Number:<span><id=number2><input type="text" name="number".></span>
-     </p> 
-   
-     <button>"click me"</button>
-     <img src= "http://thirstyinsuburbia.com/wp-content/uploads/2013/03/madlibswaterguy.jpg";
-     <script src= "app.js"></script> 
+     <header>
+         <h1>Mad Lib for Bootcamp Prep</h1>
+</header>
+<main>
+    <section>
+       <p>
+        <label>
+          Noun:
+          <input id="noun-one">
+        </label>
+      </p>
+       <p>
+          <label>
+              Verb:
+              <input id="verb">
+          </label>
+      </p>
+      <p>
+          <label>
+              Noun:
+              <input id="noun-two">
+          </label>
+      </p>
+      <p>
+          <label>
+              Adjective:
+              <input id="adjective">
+          </label>
+      </p>
+      <p>
+          <label>
+              Number:
+              <input id="number">
+          </label>
+      </p>
 
-    
-</body>
-</html>
+      <p>
+          <label>
+              Number:
+              <input id="number-two">
+          </label>
+      </p>
+   <p>
+    <button onclick="YourMadLib()">Mad Lib</button>
+    </p>
+    </section>
+       <section id="blanks" class="hidden">
+            <h2>Check It Out!</h2>
+            <p>
+                I am not a funny writer so hopfully a <span id="noun-one"</span> will get a <span id="verb"</span> out loud. Bootcamp prep at <span id="noun-two"</span> has been <span id="adjective"</span> and it has only been <span id="number-one", although it feels like <span id="number-two"!
+            </p>
+       </section>
+    </body>
+    <script src= "app.js"></script> 
+    </html>
 
 

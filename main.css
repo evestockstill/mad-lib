@@ -1,11 +1,17 @@
 
-
+body {
+    background-color: rgb(184, 219, 55);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 h1 {
     color: royalblue;
 }
 
 button {
-    color: hotpink;
+    color: rgb(240, 27, 134);
     width: 150px;  
+
 }
-body {background-color: rgb(184, 219, 55)}
+.hidden {
+    visibility: hidden;
+}
